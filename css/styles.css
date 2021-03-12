@@ -116,7 +116,11 @@ img{
   background: rgba(0,0,0,0.3);
 }
 .playlist__song--active{
+  background: rgba(0,0,0,0.3);
   color:var(--light-green);
+}
+.playlist__song--active div{
+  color: inherit;
 }
 .play-pause{
   color: var(--main-font-color);
